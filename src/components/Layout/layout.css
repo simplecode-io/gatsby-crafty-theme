@@ -71,34 +71,20 @@ body {
 }
 .footer {
   display: flexbox;
-  height: 200px;
   width: 100%;
   margin-top: 280px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background-color: #000000;
   color: white;
   text-align: right;
-}
-.footer-left {
-  padding-left: 4%;
-  float: left;
-  text-align: center;
-}
-.footer-right {
-  padding-bottom: 20px;
-  display: flexbox;
-  padding-top: 200px;
-  font-weight: 600;
-  padding-right: 4%;
-}
-.footer-right a {
   color: #ffffff;
+  text-decoration: none;
 }
-.footer-logo {
-  width: 56px;
-  padding-top: 50px;
-  padding-bottom: 15px;
-  float: center;
+.footer-text {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 4%;
 }
 .logo {
   height: 100px;

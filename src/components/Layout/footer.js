@@ -6,21 +6,10 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <div className="footer-left">
-          <Link to="/">
-            <img
-              src={logoWhite}
-              alt="Crafty Footer Logo"
-              className="footer-logo"
-            ></img>
-          </Link>
-          <div>Crafty Co.</div>
-        </div>
-        <div className="footer-right">
+        <a href="https://simplecode.io" className="footer-text">
           © {new Date().getFullYear()}
-          {` `}
-          <a href="https://simplecode.io"> Simplecode.</a> All rights reserved.
-        </div>
+          {` `} Simplecode. All rights reserved.
+        </a>
       </footer>
     )
   }
