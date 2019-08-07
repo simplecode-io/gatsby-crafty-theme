@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-import { Link } from "gatsby"
-import logoWhite from "../../images/logo-white.svg"
 
 class Footer extends Component {
   render() {

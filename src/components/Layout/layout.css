@@ -78,10 +78,9 @@ body {
   background-color: #000000;
   color: white;
   text-align: right;
-  color: #ffffff;
-  text-decoration: none;
 }
 .footer-text {
+  font-weight: 700;
   color: #ffffff;
   text-decoration: none;
   margin-right: 4%;
