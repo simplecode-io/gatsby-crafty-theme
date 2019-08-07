@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
 
-class IndexPage extends Component {
+class WorkPage extends Component {
   state = {
     smallScreen: false,
     modal: { name: "" },
@@ -24,17 +24,18 @@ class IndexPage extends Component {
   closeModal() {
     document.getElementById("modal").style.display = "none"
   }
+
   render() {
-    let indexData = this.props.data.allIndexJson.nodes[0]
-    let homeItems = []
+    let workData = this.props.data.allWorkJson.nodes[0]
+    let workItems = []
     let i = 0
-    indexData.home_items.forEach(item => {
-      homeItems.push(
+    workData.work_items.forEach(item => {
+      workItems.push(
         <div
           key={i}
           onClick={this.openModal.bind(this, item)}
           className={
-            this.state.smallScreen ? "grid-item-small" : "home-grid-item"
+            this.state.smallScreen ? "grid-item-small" : "work-grid-item"
           }
           style={{
             backgroundImage: `url(${item.image})`,
@@ -45,21 +46,17 @@ class IndexPage extends Component {
       i++
     })
     return (
-      <Layout page={"home"}>
-        <h1 className="title">{indexData.title}</h1>
-        <div className="home-main">
-          <div className="text">{indexData.text}</div>
-          <div className="divider"></div>
-          <h2 className="subtitle">{indexData.subtitle}</h2>
-          <div
-            className={
-              this.state.smallScreen
-                ? "grid-container-small"
-                : "home-grid-container"
-            }
-          >
-            {homeItems}
-          </div>
+      <Layout page={"work"}>
+        <h1 className="title">{workData.title}</h1>
+        <div className="text">{workData.text}</div>
+        <div
+          className={
+            this.state.smallScreen
+              ? "grid-container-small"
+              : "work-grid-container"
+          }
+        >
+          {workItems}
         </div>
         <div id="modal" className="modal" onClick={this.closeModal}>
           <div
@@ -90,17 +87,17 @@ class IndexPage extends Component {
     )
   }
 }
-export default IndexPage
+export default WorkPage
 
 export const query = graphql`
   query {
-    allIndexJson {
+    allWorkJson {
       nodes {
+        id
         title
         description
         text
-        subtitle
-        home_items {
+        work_items {
           name
           description
           completed

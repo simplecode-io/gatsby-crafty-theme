@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-crafty-theme",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A crafty gatsby theme.",
+  "version": "1.0.0",
+  "author": "Simplecode <info@simplecode.io>",
   "dependencies": {
     "gatsby": "^2.13.51",
     "gatsby-image": "^2.2.8",
@@ -12,6 +12,7 @@
     "gatsby-plugin-react-helmet": "^3.1.3",
     "gatsby-plugin-sharp": "^2.2.9",
     "gatsby-source-filesystem": "^2.1.8",
+    "gatsby-transformer-json": "^2.2.2",
     "gatsby-transformer-sharp": "^2.2.5",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -35,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/simplecode-io/gatsby-crafty-theme"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

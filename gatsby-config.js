@@ -1,16 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Crafty Co | Web Development`,
+    titleTemplate: "%s",
+    description: `We're on a mission to make the web beautiful.`,
+    image: "/logo.png",
+    twitterUsername: "@Simplecodehq",
+    siteUrl: "https://gatsby-crafty.simplecode.io",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `./src/data/`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -24,7 +28,6 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

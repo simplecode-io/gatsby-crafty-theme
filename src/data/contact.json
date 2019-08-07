@@ -1,0 +1,14 @@
+[
+  {
+    "__comments": "These are some comments",
+    "title": "Get in Touch",
+    "description": "Welcome to our company website",
+    "text": "We would love to hear from you. Drop us a line.",
+    "email": "info@crafty.co",
+    "phone": "1-xxx-xxx-xx68",
+    "twitter": "@CraftyCo",
+    "email_icon": "images/email.svg",
+    "phone_icon": "images/phone.svg",
+    "twitter_icon": "images/twitter.svg"
+  }
+]

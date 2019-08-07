@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Logo_FIXED"
+   data-name="Logo — FIXED"
+   viewBox="0 0 24 19.501242"
+   version="1.1"
+   sodipodi:docname="twitter.svg"
+   width="24"
+   height="19.501242"
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)">
+  <metadata
+     id="metadata881">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Twitter_Logo_Blue</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1850"
+     inkscape:window-height="1016"
+     id="namedview879"
+     showgrid="false"
+     inkscape:zoom="5.68"
+     inkscape:cx="8.1695534"
+     inkscape:cy="55.404935"
+     inkscape:window-x="70"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Logo_FIXED" />
+  <defs
+     id="defs870">
+    <style
+       id="style868">.cls-1{fill:none;}.cls-2{fill:#1da1f2;}</style>
+  </defs>
+  <title
+     id="title872">Twitter_Logo_Blue</title>
+  <rect
+     class="cls-1"
+     width="400"
+     height="400"
+     id="rect874"
+     x="-75"
+     y="-282.08878"
+     style="fill:none" />
+  <path
+     class="cls-2"
+     d="m 7.54752,19.501242 c 9.05664,0 14.01024,-7.50336 14.01024,-14.01024 0,-0.21312 0,-0.42528 -0.0144,-0.63648 A 10.01856,10.01856 0 0 0 24,2.305722 9.82848,9.82848 0 0 1 21.17184,3.080442 4.94112,4.94112 0 0 0 23.33664,0.35692205 9.86784,9.86784 0 0 1 20.20992,1.552122 4.92864,4.92864 0 0 0 11.81856,6.043002 13.97952,13.97952 0 0 1 1.6704,0.89836205 4.92768,4.92768 0 0 0 3.19488,7.471482 4.88736,4.88736 0 0 1 0.96,6.855162 c 0,0.0202 0,0.0413 0,0.0624 a 4.92576,4.92576 0 0 0 3.9504,4.82688 4.91616,4.91616 0 0 1 -2.22336,0.0845 4.9296,4.9296 0 0 0 4.60032,3.41952 9.88032,9.88032 0 0 1 -6.1152,2.112 A 10.02336,10.02336 0 0 1 0,17.289402 a 13.94016,13.94016 0 0 0 7.54752,2.208"
+     id="path876"
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-opacity:1;stroke-width:0.096" />
+</svg>

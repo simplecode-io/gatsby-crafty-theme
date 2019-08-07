@@ -1,0 +1,34 @@
+[
+  {
+    "__comments": "These are some comments",
+    "title": "Our Work",
+    "description": "Welcome to our company website",
+    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
+    "work_items": [
+      {
+        "name": "GOLDROSE",
+        "image": "images/goldenrose.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer 2019"
+      },
+      {
+        "name": "Hipster",
+        "image": "images/hipster.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer 2019"
+      },
+      {
+        "name": "Hold Fast",
+        "image": "images/holdfast.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer 2019"
+      },
+      {
+        "name": "Freedom Travel",
+        "image": "images/freedom.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer 2019"
+      }
+    ]
+  }
+]

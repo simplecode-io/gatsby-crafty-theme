@@ -1,0 +1,29 @@
+[
+  {
+    "__comments": "These are some comments",
+    "title": "Hello, We are Crafty Co.",
+    "description": "Welcome to our company website",
+    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
+    "subtitle": "OUR RECENT PROJECTS",
+    "home_items": [
+      {
+        "name": "GOLDROSE",
+        "image": "images/goldenrose.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer 2019"
+      },
+      {
+        "name": "Hipster",
+        "image": "images/hipster.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer 2019"
+      },
+      {
+        "name": "Freedom Travel",
+        "image": "images/freedom.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Spring 2019"
+      }
+    ]
+  }
+]
