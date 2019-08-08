@@ -5,7 +5,7 @@ module.exports = {
     description: `We're on a mission to make the web beautiful.`,
     image: "/logo.png",
     twitterUsername: "@Simplecodehq",
-    siteUrl: "https://gatsby-crafty.simplecode.io",
+    siteUrl: "https://demos.simplecode.io/gatsby/crafty",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
